@@ -4,7 +4,7 @@ import MessageList from './MessageList.tsx';
 import MessageInput from './MessageInput.tsx';
 import { Message } from './types';
 import { INITIAL_MESSAGE } from './constants';
-import { geminiService } from './services/geminiService';
+import { geminiService } from './geminiService.ts';
 
 const App: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
